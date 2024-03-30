@@ -758,11 +758,6 @@ img {
   transition: .3s;
 
 }
-/* 
-.card:hover {
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-} */
 
 .cards_item {
   display: flex;
@@ -809,11 +804,6 @@ img {
   text-transform: capitalize;
   margin: 0px;
 }
-/* #main-data{
-  margin-top: 90px;
-  margin-bottom: 20px;
- 
-} */
 
 
 /* whatshapp btn */
@@ -844,7 +834,7 @@ img {
   height: 50px;
   bottom: 90px;
   right: 10px;
-  /* z-index: 1; */
+ 
   font-size: 18px;
   background-color: #c7232f;
   color: white;
@@ -856,58 +846,34 @@ img {
 #myBtn:hover {
   background-color: #c7232f;
 }
-/* second page data  */
-/* .data-section{
-  margin-top: 70px;
-} */
 
+
+
+
+  /* data section */
 .data-section .content {
   width: 1150px;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
- 
+  flex-wrap:wrap;
+  justify-content:space-around;
   
 }
 
 .content-item{
   flex-basis: 32.4%;
- margin: 10px 0px;
- background: aliceblue;
+  margin: 10px 0px;
+ /* background: aliceblue; */
  box-shadow: var(--shadow-large);
- /* border-radius: 10px; */
- -webkit-transition: 0.2s ease;
- transition: 0.2s ease;
 }
-.content-main-item{
-  
-}
+
 .content-item h3{
- 
+background: #c7232f; 
 padding: 10px 0px 10px 10px;
-background: linear-gradient(to bottom left, rgb(6, 238, 161)  40%, rgb(40, 131, 101) 100%);
 
 }
-.content-item p{
- font-size: 14px;
- padding: 10px;
-  }
-  .content-main-item .du img{
-   width: 200px;
-   height: auto;
-   padding: 10px;
-  }
-  .content-main-item .du{
-    display: flex;
-    
-  }
-  .content-main-item .du a{
-  margin: auto;
-  font-size: 15px;
-    
-  }
- @media only screen and (min-width:200px) and (max-width:767px){
+
+ @media only screen and (min-width:200px) and (max-width:700px){
   .data-section .content{
     width: 100%;
     flex-direction: column;
@@ -917,6 +883,7 @@ background: linear-gradient(to bottom left, rgb(6, 238, 161)  40%, rgb(40, 131, 
     margin: 10px;
   }
  }
+
 
  /* breadcrumb */
 
@@ -934,16 +901,10 @@ background: linear-gradient(to bottom left, rgb(6, 238, 161)  40%, rgb(40, 131, 
  #breadcrumb li a{
   color: #c7232f;
  }
- /* #breadcrumb #breadcrumb-item a{
-  color: #c7232f;
- } */
-
-
+ 
 /* footer */
 footer {
-  /* background: #1A1E25; */
-  background: linear-gradient(to bottom right, #020101 40%, #0f131a 100%);
-
+  background: #1A1E25;
   color: white;
 }
 
