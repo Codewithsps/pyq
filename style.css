@@ -873,10 +873,8 @@ padding: 10px 0px 10px 10px;
 
 }
 
-
-
- @media  (min-width:200px){
-  .data-section .content{
+@media (max-width: 415px) {
+  .data-section .content {
     width: 100%;
     flex-direction: column;
   }
@@ -885,15 +883,6 @@ padding: 10px 0px 10px 10px;
   }
 }
 
-@media  (min-width:700px){
-  .data-section .content{
-    width: 100%;
-    flex-direction:row;
-  }
-  .content-item{
-    margin: 10px;
-  }
-}
  /* breadcrumb */
 
  #breadcrumb{
