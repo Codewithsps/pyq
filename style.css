@@ -881,7 +881,7 @@ padding: 10px 0px 10px 10px;
     flex-direction: column;
   }
   .content-item{
-    margin:1opx;
+    margin:10px;
   }
 }
 
@@ -891,7 +891,7 @@ padding: 10px 0px 10px 10px;
     flex-direction:row;
   }
   .content-item{
-    /* margin: 10px; */
+    margin: 10px;
   }
 }
  /* breadcrumb */
