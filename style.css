@@ -882,7 +882,15 @@ padding: 10px 0px 10px 10px;
     margin:10px;
   }
 }
-
+@media (max-width: 980px) {
+  .data-section .content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .content-item{
+    margin:10px;
+  }
+}
  /* breadcrumb */
 
  #breadcrumb{
